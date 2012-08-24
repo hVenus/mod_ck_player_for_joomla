@@ -1,0 +1,7 @@
+mod_ck_player_for_joomla
+
+这是一个joomla的一个模块扩展。使用CKPlayer来播放H.264格式的flv,f4v,mp4等媒体文件。
+
+System request: joomla 2.5, CKPlayer 5.7 and up.
+
+
