@@ -4,4 +4,8 @@ mod_ck_player_for_joomla
 
 System request: joomla 2.5, CKPlayer 5.7 and up.
 
+使用说明：
+1，在joomla 2.5中安装本module。
+2，下载ck player，http://www.fufuok.com/demo/ckplayer/index.html。解压后，将目录内文件放到能访问到目录里。
+3，配置模块的设置。
 

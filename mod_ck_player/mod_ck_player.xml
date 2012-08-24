@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="2.5.0" client="site" method="upgrade">
+
+    <name>ck player module</name>
+    <author>hVenus</author>
+    <creationDate>2012-08-23</creationDate>
+    <copyright></copyright>
+    <license></license>
+    <authorEmail>kevin@fm618.com</authorEmail>
+    <authorUrl>www.fm618.com</authorUrl>
+    <version>0.0.1</version>
+    <description>Joomla的视频播放器模块。使用CKPlayer。</description>
+
+    <files>
+        <filename module="mod_ck_player">mod_ck_player.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+
+    <languages>
+        <language tag="en-GB">en-GB.mod_ck_player.ini</language>
+    </languages>
+
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field
+                        name="path_to_ck_js"
+                        type="text"
+                        size="100"
+                        default="ckplayer"
+                        label="ck.js文件的路径"
+                        description="ck player的主js文件ck.js的存放路径" />
+            </fieldset>
+            <fieldset name="basic">
+                <field
+                        name="path_to_video"
+                        type="text"
+                        size="40"
+                        default="videos/ck_player"
+                        label="媒体文件的路径"
+                        description="用于播放的媒体文件的相对路径" />
+            </fieldset>
+            <fieldset name="basic">
+                <field
+                        name="video_width"
+                        type="text"
+                        size="6"
+                        default="320"
+                        label="播放器宽度"
+                        description="播放器播放时的宽度大小。" />
+            </fieldset>
+            <fieldset name="basic">
+                <field
+                        name="video_height"
+                        type="text"
+                        size="6"
+                        default="240"
+                        label="播放器高度"
+                        description="播放器播放时的高度" />
+            </fieldset>
+        </fields>
+    </config>
+
+</install>
