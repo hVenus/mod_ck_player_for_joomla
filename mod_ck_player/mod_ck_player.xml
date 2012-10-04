@@ -33,8 +33,6 @@
                         default="ckplayer"
                         label="ck.js文件的路径"
                         description="ck player的主js文件ck.js的存放路径" />
-            </fieldset>
-            <fieldset name="basic">
                 <field
                         name="path_to_video"
                         type="text"
@@ -42,8 +40,6 @@
                         default="videos/ck_player"
                         label="媒体文件的路径"
                         description="用于播放的媒体文件的相对路径" />
-            </fieldset>
-            <fieldset name="basic">
                 <field
                         name="video_width"
                         type="text"
@@ -51,8 +47,6 @@
                         default="320"
                         label="播放器宽度"
                         description="播放器播放时的宽度大小。" />
-            </fieldset>
-            <fieldset name="basic">
                 <field
                         name="video_height"
                         type="text"
@@ -60,6 +54,15 @@
                         default="240"
                         label="播放器高度"
                         description="播放器播放时的高度" />
+                <field
+                        name="video_autoplay"
+                        type="list"
+                        default="0"
+                        label="自动播放"
+                        description="视频加载后是否自动播放。">
+                    <option value="0">否</option>
+                    <option value="1">是</option>
+                </field>
             </fieldset>
         </fields>
     </config>

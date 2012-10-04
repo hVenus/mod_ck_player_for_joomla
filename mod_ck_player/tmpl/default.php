@@ -11,7 +11,8 @@ defined('_JEXEC') or die('Restricted access'); // no direct access ?>
                 b:'#000000',
                 x:'<?php echo $path_to_ck_js;?>/ckplayer_mini.xml',
                 c:0,
-                e:1
+                e:1,
+                p:<?php echo $video_auto_play;?>
             },
             "myckplayervideo",
             <?php echo $video_width;?>,
